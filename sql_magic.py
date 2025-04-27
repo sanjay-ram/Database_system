@@ -32,5 +32,3 @@ print("All the data:")
 print(table)
 cursor_obj.close()
 conn.close()
-
-

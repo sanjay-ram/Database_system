@@ -1,5 +1,5 @@
 import mysql.connector
-
+# data science from sanjay
 """
 basic database
 """

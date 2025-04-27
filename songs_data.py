@@ -1,6 +1,6 @@
 import mysql.connector
 import csv
-
+# data science from sanjay
 conn = mysql.connector.connect(
     host="localhost",
     port = 3306,

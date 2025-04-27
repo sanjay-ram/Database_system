@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# data science from sanjay
 file_path ="CHF_INR Historical Data.csv"
 df = pd.read_csv(file_path)
 

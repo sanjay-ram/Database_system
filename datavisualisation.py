@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-
+# data science from sanjay
 
 
 filename = "beste_doener.csv"

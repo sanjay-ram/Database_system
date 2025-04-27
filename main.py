@@ -2,7 +2,7 @@ import mysql.connector
 """
 basic database
 """
-
+# data science from sanjay
 conn = mysql.connector.connect(
     host="localhost",
     port=3306,
