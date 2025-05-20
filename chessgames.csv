@@ -1,0 +1,101 @@
+GameID,WhitePlayer,BlackPlayer,Result,Date,Event,NumberOfMoves,Opening
+1,Carlsen,Mamedyarov,1-0,2023-05-12,Grandmaster Invitational,42,Sicilian Defense
+2,Caruana,Anand,1/2-1/2,2022-12-02,FIDE World Cup,58,Ruy Lopez
+3,Nakamura,Ding,0-1,2021-11-18,US Chess Championship,37,King's Indian Defense
+4,Giri,So,1-0,2023-04-05,Tata Steel Chess,45,English Opening
+5,Aronian,Grischuk,0-1,2022-10-11,Chess Olympiad,61,Queen's Gambit Declined
+6,Karjakin,Topalov,1/2-1/2,2023-01-23,Candidates Tournament,33,French Defense
+7,Radjabov,Andreikin,1-0,2022-07-16,Chess World Cup,29,Nimzo-Indian Defense
+8,Kramnik,Liren,0-1,2023-03-30,China Chess League,54,Scandinavian Defense
+9,Firouzja,Vachier-Lagrave,1-0,2023-05-09,Grand Swiss,47,Sicilian Defense
+10,Duda,Wei Yi,1/2-1/2,2022-09-27,European Individual Championship,40,Caro-Kann Defense
+11,Dominguez,Shankland,0-1,2023-06-01,US Chess Championship,36,Slav Defense
+12,So,Fedoseev,1-0,2023-02-13,Tata Steel Chess,55,Ruy Lopez
+13,Anand,Carlsen,0-1,2022-08-19,Champions Showdown,39,King's Indian Defense
+14,Grischuk,Caruana,1/2-1/2,2023-03-05,FIDE Grand Prix,50,Queen's Gambit Accepted
+15,Topalov,Nakamura,1-0,2023-01-28,Speed Chess Championship,44,Sicilian Defense
+16,Mamedyarov,Giri,0-1,2022-06-10,Grand Chess Tour,53,French Defense
+17,Vachier-Lagrave,Karjakin,1-0,2023-04-17,Candidates Tournament,30,Caro-Kann Defense
+18,Andreikin,Firouzja,1/2-1/2,2023-05-21,Chess World Cup,60,English Opening
+19,Liren,Duda,0-1,2022-11-14,Chinese Super League,41,Slav Defense
+20,Shankland,Dominguez,1-0,2023-02-27,US Chess Championship,38,Nimzo-Indian Defense
+21,Carlsen,Caruana,1-0,2023-03-22,Grandmaster Invitational,49,Ruy Lopez
+22,Anand,Nakamura,0-1,2022-12-08,FIDE World Cup,57,King's Indian Defense
+23,Giri,Aronian,1/2-1/2,2023-04-15,Tata Steel Chess,34,Queen's Gambit Declined
+24,Grischuk,Karjakin,1-0,2023-06-03,Chess Olympiad,43,French Defense
+25,So,Radjabov,0-1,2022-09-30,Candidates Tournament,52,Sicilian Defense
+26,Fedoseev,Kramnik,1-0,2023-01-14,Grand Chess Tour,46,Nimzo-Indian Defense
+27,Vachier-Lagrave,Duda,0-1,2023-05-11,Chess World Cup,39,Caro-Kann Defense
+28,Topalov,Mamedyarov,1/2-1/2,2022-08-25,Speed Chess Championship,48,English Opening
+29,Andreikin,Liren,1-0,2023-03-29,Chinese Super League,36,Slav Defense
+30,Firouzja,Shankland,0-1,2023-02-01,US Chess Championship,40,King's Indian Defense
+31,Caruana,Anand,1-0,2023-06-04,FIDE Grand Prix,33,Sicilian Defense
+32,Nakamura,Giri,1/2-1/2,2022-11-20,Tata Steel Chess,59,Ruy Lopez
+33,Aronian,Grischuk,0-1,2023-03-02,Chess Olympiad,37,French Defense
+34,Karjakin,So,1-0,2022-07-05,Candidates Tournament,42,Queen's Gambit Declined
+35,Radjabov,Fedoseev,1/2-1/2,2023-01-30,Grand Chess Tour,50,Caro-Kann Defense
+36,Kramnik,Vachier-Lagrave,0-1,2023-05-22,Chess World Cup,44,English Opening
+37,Liren,Topalov,1-0,2022-10-13,Chinese Super League,39,Slav Defense
+38,Duda,Andreikin,1/2-1/2,2023-04-10,US Chess Championship,56,King's Indian Defense
+39,Dominguez,Firouzja,0-1,2023-02-16,Speed Chess Championship,51,Sicilian Defense
+40,Shankland,Carlsen,1-0,2022-09-22,Grandmaster Invitational,38,Ruy Lopez
+41,Caruana,Nakamura,0-1,2023-03-25,FIDE World Cup,42,Queen's Gambit Declined
+42,Anand,Giri,1/2-1/2,2023-01-11,Tata Steel Chess,53,Caro-Kann Defense
+43,Grischuk,So,1-0,2023-05-19,Chess Olympiad,48,French Defense
+44,Karjakin,Mamedyarov,0-1,2022-12-29,Candidates Tournament,34,English Opening
+45,Fedoseev,Aronian,1/2-1/2,2023-02-21,Grand Chess Tour,60,Slav Defense
+46,Vachier-Lagrave,Radjabov,1-0,2023-06-06,Chess World Cup,41,King's Indian Defense
+47,Topalov,Kramnik,0-1,2023-03-18,Chinese Super League,53,Sicilian Defense
+48,Andreikin,Duda,1-0,2022-11-06,US Chess Championship,36,Ruy Lopez
+49,Firouzja,Dominguez,1/2-1/2,2023-01-27,Speed Chess Championship,44,Queen's Gambit Declined
+50,Carlsen,Shankland,0-1,2023-05-08,Grandmaster Invitational,39,Caro-Kann Defense
+51,Caruana,Anand,1-0,2022-10-14,FIDE World Cup,41,French Defense
+52,Nakamura,Giri,1/2-1/2,2023-03-06,Tata Steel Chess,57,English Opening
+53,Aronian,Grischuk,0-1,2023-01-19,Chess Olympiad,50,Slav Defense
+54,Karjakin,So,1-0,2023-05-31,Candidates Tournament,42,King's Indian Defense
+55,Radjabov,Fedoseev,1/2-1/2,2022-07-25,Grand Chess Tour,48,Sicilian Defense
+56,Kramnik,Vachier-Lagrave,0-1,2023-04-29,Chess World Cup,37,Ruy Lopez
+57,Liren,Topalov,1-0,2023-02-08,Chinese Super League,55,Queen's Gambit Declined
+58,Duda,Andreikin,1/2-1/2,2023-06-02,US Chess Championship,40,Caro-Kann Defense
+59,Dominguez,Firouzja,0-1,2022-11-11,Speed Chess Championship,49,French Defense
+60,Shankland,Carlsen,1-0,2023-03-12,Grandmaster Invitational,35,English Opening
+61,Caruana,Nakamura,0-1,2022-09-19,FIDE World Cup,43,Slav Defense
+62,Anand,Giri,1-0,2023-01-02,Tata Steel Chess,50,King's Indian Defense
+63,Grischuk,So,1/2-1/2,2023-05-27,Chess Olympiad,38,Sicilian Defense
+64,Karjakin,Mamedyarov,0-1,2023-02-24,Candidates Tournament,56,Ruy Lopez
+65,Fedoseev,Aronian,1-0,2022-10-04,Grand Chess Tour,44,Queen's Gambit Declined
+66,Vachier-Lagrave,Radjabov,1/2-1/2,2023-03-10,Chess World Cup,40,Caro-Kann Defense
+67,Topalov,Kramnik,0-1,2023-06-08,Chinese Super League,57,French Defense
+68,Andreikin,Duda,1-0,2022-12-13,US Chess Championship,47,English Opening
+69,Firouzja,Dominguez,1/2-1/2,2023-01-01,Speed Chess Championship,41,Slav Defense
+70,Carlsen,Shankland,0-1,2023-04-07,Grandmaster Invitational,53,King's Indian Defense
+71,Caruana,Anand,1-0,2022-11-23,FIDE World Cup,48,Sicilian Defense
+72,Nakamura,Giri,1/2-1/2,2023-02-17,Tata Steel Chess,39,Ruy Lopez
+73,Aronian,Grischuk,0-1,2023-06-05,Chess Olympiad,45,Queen's Gambit Declined
+74,Karjakin,So,1-0,2022-10-28,Candidates Tournament,50,Caro-Kann Defense
+75,Radjabov,Fedoseev,1/2-1/2,2023-03-21,Grand Chess Tour,42,French Defense
+76,Kramnik,Vachier-Lagrave,0-1,2022-08-01,Chess World Cup,37,English Opening
+77,Liren,Topalov,1-0,2023-05-25,Chinese Super League,54,Slav Defense
+78,Duda,Andreikin,1/2-1/2,2023-01-16,US Chess Championship,40,King's Indian Defense
+79,Dominguez,Firouzja,0-1,2022-12-30,Speed Chess Championship,46,Sicilian Defense
+80,Shankland,Carlsen,1-0,2023-04-02,Grandmaster Invitational,38,Ruy Lopez
+81,Caruana,Nakamura,0-1,2023-06-10,FIDE World Cup,53,Queen's Gambit Declined
+82,Anand,Giri,1/2-1/2,2022-11-06,Tata Steel Chess,44,Caro-Kann Defense
+83,Grischuk,So,1-0,2023-02-05,Chess Olympiad,49,French Defense
+84,Karjakin,Mamedyarov,0-1,2023-05-12,Candidates Tournament,41,English Opening
+85,Fedoseev,Aronian,1/2-1/2,2023-03-03,Grand Chess Tour,38,Slav Defense
+86,Vachier-Lagrave,Radjabov,1-0,2022-09-27,Chess World Cup,57,King's Indian Defense
+87,Topalov,Kramnik,0-1,2023-01-24,Chinese Super League,52,Sicilian Defense
+88,Andreikin,Duda,1-0,2023-04-21,US Chess Championship,36,Ruy Lopez
+89,Firouzja,Dominguez,1/2-1/2,2022-10-02,Speed Chess Championship,43,Queen's Gambit Declined
+90,Carlsen,Shankland,0-1,2023-06-07,Grandmaster Invitational,47,Caro-Kann Defense
+91,Caruana,Anand,1-0,2023-03-15,FIDE World Cup,40,French Defense
+92,Nakamura,Giri,1/2-1/2,2022-12-20,Tata Steel Chess,49,English Opening
+93,Aronian,Grischuk,0-1,2023-01-08,Chess Olympiad,51,Slav Defense
+94,Karjakin,So,1-0,2023-05-18,Candidates Tournament,39,King's Indian Defense
+95,Radjabov,Fedoseev,1/2-1/2,2022-11-29,Grand Chess Tour,55,Sicilian Defense
+96,Kramnik,Vachier-Lagrave,0-1,2023-02-28,Chess World Cup,37,Ruy Lopez
+97,Liren,Topalov,1-0,2023-06-09,Chinese Super League,46,Queen's Gambit Declined
+98,Duda,Andreikin,1/2-1/2,2022-09-11,US Chess Championship,43,Caro-Kann Defense
+99,Dominguez,Firouzja,0-1,2023-04-23,Speed Chess Championship,44,French Defense
+100,Shankland,Carlsen,1-0,2023-01-05,Grandmaster Invitational,38,English Opening
