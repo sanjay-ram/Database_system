@@ -4,18 +4,16 @@ import pandas as pd
 data = {
     'StudyHours': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     'PrevExamScore': [30, 40, 45, 50, 60, 65, 70, 75, 80, 85],
-    'Pass': [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]  # 0 = Fail, 1 = Pass
+    'Pass': [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
 }
 
 df = pd.DataFrame(data)
 
-# Features and target variable
 X = df[['StudyHours', 'PrevExamScore']]
 y = df['Pass']
 
 import statsmodels.api as sm
 
-# Add a constant (for the intercept)
 X = sm.add_constant(X)
 
 from sklearn.linear_model import LinearRegression
@@ -23,7 +21,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 
-# Define forward selection function
 def forward_selection(X, y):
     remaining_features = set(X.columns)
     selected_features = []
@@ -41,7 +38,6 @@ def forward_selection(X, y):
             score = r2_score(y_test, y_pred)
             scores_with_candidates.append((score, feature))
 
-        # Select the feature with the best score
         scores_with_candidates.sort(reverse=True)
         best_score, best_feature = scores_with_candidates[0]
 

@@ -37,14 +37,14 @@ r2 = r2_score(y_test, y_pred)
 print(f"MSE: {mse:.3f}")
 print(f"R²: {r2:.3f}")
 
-infl_2026 = model.predict(np.array([[2029]]))[0]
+infl_2025 = model.predict(np.array([[2025]]))[0]
 infl_2030 = model.predict(np.array([[2030]]))[0]
 
-change_pct = ((infl_2030 - infl_2026) / abs(infl_2026)) * 100
+change_pct = ((infl_2030 - infl_2025) / abs(infl_2025)) * 100
 
-print(f"Vorhergesagte Inflation 2029: {infl_2026:.2f}%")
+print(f"Vorhergesagte Inflation 2025: {infl_2025:.2f}%")
 print(f"Vorhergesagte Inflation 2030: {infl_2030:.2f}%")
-print(f"Gesamtänderung 2029–2030: {change_pct:.2f}%")
+print(f"Gesamtänderung 2025–2030: {change_pct:.2f}%")
 
 plt.plot(data["Year"], data["Inflation"], color='blue', label='Tatsächliche Daten')
 plt.plot(X_all, y_all_pred, color='red', linestyle='--', label='Vorhersage (Trendlinie)')
