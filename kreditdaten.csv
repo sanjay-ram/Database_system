@@ -1,0 +1,11 @@
+Alter,Einkommen,Kreditbetrag,Schulden,Kredit_genehmigt
+25,2000,1000,Nein,Nein
+30,3500,2000,Nein,Ja
+45,4000,2500,Ja,Ja
+23,1500,1200,Ja,Nein
+50,5000,3000,Nein,Ja
+35,2800,1000,Nein,Ja
+40,2500,2000,Ja,Nein
+28,2200,1200,Nein,Ja
+48,4200,2500,Nein,Ja
+33,3000,1500,Ja,Nein

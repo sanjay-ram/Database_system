@@ -1,30 +1,24 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, pipeline
 
-model_name = "google/flan-t5-small"
+
+model_name = "google/flan-t5-large"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-
 generator = pipeline("text2text-generation", model=model, tokenizer=tokenizer)
 
-print("Chatbot bereit! (Tippe 'bye' zum Beenden)\n")
 
-while True:
-    user_input = input("Du: ").strip()
+chatbot_prompt = (
+    "You are a friendly AI assistant. "
+    "Answer the user's question with a detailed response, giving multiple facts or examples."
+)
 
-    if user_input.lower() in ["bye", "tschüss", "exit", "quit"]:
-        print("Bot: Tschüss! ")
-        break
-    elif not user_input:
-        print("Bot: Bitte schreibe etwas.")
-        continue
+messages = [{"role": "user", "content": "Tell me some interesting facts about electricity."}]
 
-    response = generator(
-        user_input,
-        max_new_tokens=100,
-        num_beams=5,
-        no_repeat_ngram_size=3,
-        repetition_penalty=2.0,
-        early_stopping=True
-    )
+response = generator(
+    f"{chatbot_prompt} {messages[-1]['content']}",
+    max_new_tokens=500,
+    do_sample=True,
+    temperature=0.7
+)
 
-    print("Bot:", response[0]["generated_text"])
+print(response[0]["generated_text"])
