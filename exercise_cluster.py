@@ -20,11 +20,10 @@ df_scaled = scaler.fit_transform(df)
 df_scaled = pd.DataFrame(df_scaled, columns=['Age', 'AnnualIncome', 'SpendingScore'])
 print(df_scaled.head())
 
-k = 3
-kmeans = KMeans(n_clusters=k, random_state=42)
+kmeans = KMeans(n_clusters=3, random_state=42)
 kmeans.fit(df_scaled)
+
 df['Cluster'] = kmeans.labels_
-print(df.head())
 
 plt.scatter(df['AnnualIncome'], df['SpendingScore'], c=df['Cluster'], cmap='viridis')
 plt.title('K-Means Clustering')
