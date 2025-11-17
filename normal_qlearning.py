@@ -17,7 +17,7 @@ gamma = 0.9
 epsilon = 0.1
 
 def epsilon_greedy_action(Q_table, state, epsilon):
-    if np.random.rand < epsilon:
+    if np.random.rand() < epsilon:
         return np.random.randint(0, n_actions)
     else:
         return np.argmax(Q_table[state])
@@ -81,7 +81,7 @@ plt.show()
 
 actions = []
 def epsilon_greedy_action(Q_table, epsilon, state):
-    if np.random.rand < epsilon:
+    if np.random.rand() < epsilon:
         actions.append('explore')
         return np.random.randint(0, Q_table.shape[1])
     else:
